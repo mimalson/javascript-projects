@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat';
+  color: var(--color-4);
+}
+body[data-theme="light"]{
+  --color-1:rgb(196, 220, 241);
+  --color-2: white; 
+  --color-3: white;
+  --color-4: rgb(80, 82, 110);
+}
+body[data-theme="dark"]{
+  --color-1:#1E1F26;
+  --color-2: #292c33; 
+  --color-3: rgb(39, 40, 42);
+  --color-4: rgb(186, 186, 202);
+}
