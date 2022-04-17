@@ -81,3 +81,25 @@ label{
   background-color: rgb(255, 255, 255);
   transition: .5s ease background-color;
 }
+
+label::after{
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  top: 50%;
+  left: 5px;
+  transform: translateY( -50%);
+  background-color: rgb(46, 42, 68);
+  transition: .5s ease;
+}
+input:checked + label::after{
+  /* left: calc(100% - 2.5px); */
+  left: calc(100% - 25px);
+  background-color: aliceblue;
+}
+input:checked + label{
+  background-color: rgb(25, 26, 37);
+  border: 2px solid whitesmoke;
+}
