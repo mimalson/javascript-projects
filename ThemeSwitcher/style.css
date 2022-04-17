@@ -59,3 +59,25 @@ button{
   margin-top: 20px;
   cursor: pointer;
 }
+
+.theme-switcher{
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+input{
+  width: 0;
+  height: 0;
+  display: none;
+  visibility: hidden;
+}
+label{
+  cursor: pointer;
+  display: block;
+  text-indent: -9999px;
+  height: 30px;
+  width: 60px;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  transition: .5s ease background-color;
+}
