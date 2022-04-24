@@ -25,3 +25,9 @@ body{
   font-size: 24px;
   cursor: pointer;
 }
+.dots{
+  display: inline-block;
+}
+.text.show-more .dots{
+  display: none;
+}
